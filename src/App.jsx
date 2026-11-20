@@ -1,6 +1,8 @@
 import Entete from './Entete.jsx'
 import Competence from './Competence.jsx'
 import Projet from './Projet.jsx'
+import Compteur from './Compteur.jsx'
+import Todo from './Todo.jsx'
 import './App.css'
 
 const competences = [
@@ -48,6 +50,9 @@ function App() {
             />
           ))}
         </ul>
+
+        <Compteur />
+        <Todo />
 
         <h2>Mes projets</h2>
         {projets.map((p) => (
