@@ -146,3 +146,19 @@ button:hover {
   padding: 8px 0;
   border-bottom: 1px solid #eee;
 }
+.a-propos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.photo-profil {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
